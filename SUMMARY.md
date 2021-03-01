@@ -39,6 +39,7 @@
   * [437. Copy Book 书籍复印](binary-search-er-fen-cha-zhao/437.-copy-book-shu-ji-fu-yin.md)
   * [302. Smallest Rectangle Enclosing Black Pixels](binary-search-er-fen-cha-zhao/302.-smallest-rectangle-enclosing-black-pixels.md)
 * [Breadth-First Search 宽度优先搜索](breadthfirst-search-kuan-du-you-xian-sou-suo/README.md)
+  * [1197. Minimum Knight Moves](breadthfirst-search-kuan-du-you-xian-sou-suo/1197.-minimum-knight-moves.md)
   * [141. Linked List Cycle](breadthfirst-search-kuan-du-you-xian-sou-suo/141.-linked-list-cycle.md)
   * [637. Average of Levels in Binary Tree](breadthfirst-search-kuan-du-you-xian-sou-suo/637.-average-of-levels-in-binary-tree.md)
   * [102. Binary Tree Level Order Traversal](breadthfirst-search-kuan-du-you-xian-sou-suo/102.-binary-tree-level-order-traversal.md)
