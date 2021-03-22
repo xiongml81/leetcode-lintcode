@@ -27,7 +27,7 @@ Different algorithm \(take different route\) for DFS: traversal vs D&C
 Different implementation \(drive or walk\) for traversal or D&C:  
 recursion vs. iteration
 
-
+![](../.gitbook/assets/image%20%283%29.png)
 
 
 
