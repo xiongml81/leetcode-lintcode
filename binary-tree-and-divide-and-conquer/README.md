@@ -35,5 +35,8 @@ Consider: root, leaf, node in the middle \(substree\), and null node
 
 Find value/path in a Binary Tree \(DFS\)
 
-How many subtrees are there in a binary tree? O\(n\) - all the nodes in the tree
+How many subtrees are there in a binary tree? O\(n\) - all the nodes in the tree  
+
+
+![](../.gitbook/assets/image%20%285%29.png)
 
