@@ -29,5 +29,9 @@ recursion vs. iteration
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
+**2. Binary Tree**
+
+Consider: root, leaf, node in the middle \(substree\), and null node
+
 
 
