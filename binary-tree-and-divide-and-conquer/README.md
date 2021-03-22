@@ -1,6 +1,6 @@
 # Binary Tree and Divide & Conquer
 
-1. **Divide & Conquer \(D & C\)**
+**1.Divide & Conquer \(D & C\)**
 
 Divide big problem into several similar and smaller problems   
 ****D&C vs. Binary Search
