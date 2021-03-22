@@ -33,5 +33,7 @@ recursion vs. iteration
 
 Consider: root, leaf, node in the middle \(substree\), and null node
 
+Find value/path in a Binary Tree \(DFS\)
 
+How many subtrees are there in a binary tree? O\(n\) - all the nodes in the tree
 
