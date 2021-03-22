@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Binary Tree and Divide & Conquer](binary-tree-and-divide-and-conquer.md)
 * [Sort Algorithm 排序](sort-algorithm/README.md)
   * [Bubble Sort 冒泡排序](sort-algorithm/bubble-sort-mao-pao-pai-xu.md)
   * [Insertion Sort 插入排序](sort-algorithm/insertion-sort-cha-ru-pai-xu.md)
