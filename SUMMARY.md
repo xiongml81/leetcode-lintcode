@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Binary Tree and Divide & Conquer](binary-tree-and-divide-and-conquer/README.md)
+  * [596. Minimum Subtree](binary-tree-and-divide-and-conquer/596.-minimum-subtree.md)
   * [242. Convert Binary Tree to Linked Lists by Depth](binary-tree-and-divide-and-conquer/untitled.md)
 * [Sort Algorithm 排序](sort-algorithm/README.md)
   * [Bubble Sort 冒泡排序](sort-algorithm/bubble-sort-mao-pao-pai-xu.md)
