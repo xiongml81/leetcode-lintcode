@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Binary Tree and Divide & Conquer](binary-tree-and-divide-and-conquer/README.md)
+  * [112. Path Sum](binary-tree-and-divide-and-conquer/112.-path-sum.md)
   * [124. Binary Tree Maximum Path Sum](binary-tree-and-divide-and-conquer/124.-binary-tree-maximum-path-sum.md)
   * [437. Path Sum III](binary-tree-and-divide-and-conquer/437.-path-sum-iii.md)
   * [113. Path Sum II](binary-tree-and-divide-and-conquer/113.-path-sum-ii.md)
