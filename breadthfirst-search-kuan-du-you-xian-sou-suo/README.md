@@ -106,7 +106,6 @@ public class Queue {
 ### By LinkedList
 
 ```java
-package bfs;
 
 public class MyQueue {
 
