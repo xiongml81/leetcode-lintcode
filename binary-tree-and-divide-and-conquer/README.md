@@ -110,6 +110,8 @@ level order
 
 zigzag order
 
+[https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
 ```text
         if(root == null){
             return res;
@@ -141,5 +143,10 @@ zigzag order
         }
 ```
 
-vertical order
+vertical order  
+[https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+
+```text
+
+```
 
