@@ -55,7 +55,8 @@ in order
         inorderTraversal(root.right);
 ```
 
-post order
+post order  
+[https://leetcode.com/problems/binary-tree-postorder-traversal/](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ```text
        if(root == null){
