@@ -68,7 +68,8 @@ post order
         res.add(root.val);
 ```
 
-pre order
+pre order  
+[https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 ```text
          if(root == null){
@@ -79,9 +80,31 @@ pre order
         inorderTraversal(root.right);
 ```
 
-level order
+level order  
+[https://leetcode.com/problems/binary-tree-level-order-traversal/](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ```text
-
+        if(root == null){
+            return res;
+        }
+        
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            List<Integer> temp = new ArrayList<>();
+            int size = queue.size();
+            for(int i = 0; i < size; i++){
+                TreeNode level = queue.poll();
+                temp.add(level.val);
+                if(level.left != null){
+                    queue.offer(level.left);
+                }
+                if(level.right != null){
+                    queue.offer(level.right);
+                }
+            }
+            res.add(temp);
+            
+        }
 ```
 
