@@ -40,3 +40,41 @@ How many subtrees are there in a binary tree? O\(n\) - all the nodes in the tree
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
+Binary Tree Traversal
+
+in order  
+[https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+```text
+        if(root == null){
+            return res;
+        }
+        
+        inorderTraversal(root.left);
+        res.add(root.val);
+        inorderTraversal(root.right);
+```
+
+post order
+
+```text
+       if(root == null){
+            return res;
+        }
+        
+        inorderTraversal(root.left);
+        inorderTraversal(root.right);
+        res.add(root.val);
+```
+
+pre order
+
+```text
+         if(root == null){
+            return res;
+        }
+        res.add(root.val);
+        inorderTraversal(root.left);
+        inorderTraversal(root.right);
+```
+
