@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Binary Tree and Divide & Conquer](binary-tree-and-divide-and-conquer/README.md)
+* [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
   * [1644. Lowest Common Ancestor of a Binary Tree II](binary-tree-and-divide-and-conquer/1644.-lowest-common-ancestor-of-a-binary-tree-ii.md)
   * [236. Lowest Common Ancestor of a Binary Tree](binary-tree-and-divide-and-conquer/236.-lowest-common-ancestor-of-a-binary-tree.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](binary-tree-and-divide-and-conquer/235.-lowest-common-ancestor-of-a-binary-search-tree.md)

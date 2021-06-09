@@ -1,4 +1,4 @@
-# Binary Tree and Divide & Conquer
+# Binary Tree and Divide & Conquer 二叉树和分治法
 
 **1.Divide & Conquer \(D & C\)**
 
@@ -76,5 +76,11 @@ pre order
         res.add(root.val);
         inorderTraversal(root.left);
         inorderTraversal(root.right);
+```
+
+level order
+
+```text
+
 ```
 
