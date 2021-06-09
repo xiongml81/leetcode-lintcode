@@ -108,3 +108,38 @@ level order
         }
 ```
 
+zigzag order
+
+```text
+        if(root == null){
+            return res;
+        }
+        
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        boolean left2right = true;
+        while(!queue.isEmpty()){
+            List<Integer> temp = new ArrayList<>();
+            int size = queue.size();
+            
+            for(int i = 0; i < size; i++){
+                
+                TreeNode level = queue.poll();
+                if(left2right == true){
+                    temp.add(level.val);
+                }
+                else{
+                    temp.add(0, level.val);
+                }
+                
+                if(level.left != null) queue.offer(level.left);
+              
+                if(level.right != null)queue.offer(level.right);
+            }
+            res.add(temp);
+            left2right = !left2right;
+        }
+```
+
+vertical order
+
