@@ -147,6 +147,59 @@ vertical order
 [https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
 
 ```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    List<int[]> res = new ArrayList<>();
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        List<List<Integer>> result = new ArrayList();
+        if(root == null){
+            return result;
+        }
+        inorder(root, 0, 0);
+        
+        
+        
+        
+        
+        Collections.sort(res, (a, b) -> a[0] == b[0] ? a[1] == b[1] ? a[2] - b[2] : a[1] - b[1] : a[0] - b[0]);
 
+        Map<Integer, List<Integer>> map = new TreeMap<>();
+        for (int[] p : res) {
+            List<Integer> temp = map.getOrDefault(p[0], new ArrayList<>());
+            temp.add(p[2]);
+            map.put(p[0], temp);
+        }
+
+        
+        for (List<Integer> l : map.values())
+            result.add(l);
+        
+        return result;
+    }
+    
+    public void inorder(TreeNode root, int column, int height){
+        if(root == null){
+            return;
+        }
+        
+        inorder(root.left, column - 1, height + 1);
+        res.add(new int[] {column, height, root.val});
+        inorder(root.right, column + 1, height + 1);
+    }
+}
 ```
 
