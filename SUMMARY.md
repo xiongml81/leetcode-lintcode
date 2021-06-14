@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
+  * [105. Construct Binary Tree from Preorder and Inorder Traversal](binary-tree-and-divide-and-conquer/105.-construct-binary-tree-from-preorder-and-inorder-traversal.md)
   * [226. Invert Binary Tree](binary-tree-and-divide-and-conquer/226.-invert-binary-tree.md)
   * [863. All Nodes Distance K in Binary Tree](binary-tree-and-divide-and-conquer/863.-all-nodes-distance-k-in-binary-tree.md)
   * [1644. Lowest Common Ancestor of a Binary Tree II](binary-tree-and-divide-and-conquer/1644.-lowest-common-ancestor-of-a-binary-tree-ii.md)
