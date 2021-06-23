@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
+  * [1008. Construct Binary Search Tree from Preorder Traversal](binary-tree-and-divide-and-conquer/1008.-construct-binary-search-tree-from-preorder-traversal.md)
   * [114. Flattenn Binary Tree to Linked List](binary-tree-and-divide-and-conquer/114.-flattenn-binary-tree-to-linked-list.md)
   * [106. Construct Binary Tree from Inorder and Postorder Traversal](binary-tree-and-divide-and-conquer/106.-construct-binary-tree-from-inorder-and-postorder-traversal.md)
   * [105. Construct Binary Tree from Preorder and Inorder Traversal](binary-tree-and-divide-and-conquer/105.-construct-binary-tree-from-preorder-and-inorder-traversal.md)
