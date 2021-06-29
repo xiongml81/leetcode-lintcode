@@ -31,3 +31,5 @@ paths: = subsets = paths starting from any points and ending at any point in the
 
 ![](.gitbook/assets/image%20%2813%29.png)
 
+**Find permutation by N number**
+
