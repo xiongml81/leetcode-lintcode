@@ -27,3 +27,5 @@ point: elements in the set
 
 edges: directed connection between elements, from smaller point to bigger point \(in order to avoid duplicated subset such as \(1,2\) and \(2,1\)
 
+paths: = subsets = paths starting from any points and ending at any point in the graph
+
