@@ -36,7 +36,9 @@ edges: the undirected edge between elements
 paths:= permutation = paths starting from any point and ending at any point in the graph, while each node appears in the path exactly once  
 
 
+![](.gitbook/assets/image%20%2815%29.png)
+
+**2. Finding all solutions \(solution == path\): BFS vs. DFS**
+
 ![](.gitbook/assets/image%20%2814%29.png)
-
-
 
