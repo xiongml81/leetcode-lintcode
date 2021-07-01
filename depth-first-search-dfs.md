@@ -42,3 +42,9 @@ paths:= permutation = paths starting from any point and ending at any point in t
 
 ![](.gitbook/assets/image%20%2814%29.png)
 
+**Subset**  
+  
+
+
+![](.gitbook/assets/image%20%2816%29.png)
+
