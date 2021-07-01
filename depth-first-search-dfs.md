@@ -21,15 +21,22 @@ need to define points/edges/paths
 
 **Find Subset**
 
-Directed Graph
-
-point: elements in the set
-
-edges: the directed connection between elements, from smaller point to bigger point \(in order to avoid duplicated subset such as \(1,2\) and \(2,1\)
-
+Directed Graph  
+point: elements in the set  
+edges: the directed connection between elements, from smaller point to bigger point \(in order to avoid duplicated subset such as \(1,2\) and \(2,1\)  
 paths: = subsets = paths starting from any points and ending at any point in the graph
 
 ![](.gitbook/assets/image%20%2813%29.png)
 
 **Find permutation by N number**
+
+Undirected Graph   
+point: elements in the set   
+edges: the undirected edge between elements  
+paths:= permutation = paths starting from any point and ending at any point in the graph, while each node appears in the path exactly once  
+
+
+![](.gitbook/assets/image%20%2814%29.png)
+
+
 
