@@ -26,7 +26,7 @@ point: elements in the set\
 edges: the directed connection between elements, from smaller point to bigger point (in order to avoid duplicated subset such as (1,2) and (2,1)\
 paths: = subsets = paths starting from any points and ending at any point in the graph
 
-![](<../.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (13).png>)
 
 **Find permutation by N number**
 
@@ -36,14 +36,14 @@ edges: the undirected edge between elements\
 paths:= permutation = paths starting from any point and ending at any point in the graph, while each node appears in the path exactly once\
 
 
-![](<../.gitbook/assets/image (15).png>)
+![](<.gitbook/assets/image (15).png>)
 
 **2. Finding all solutions (solution == path): BFS vs. DFS**
 
-![](<../.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (14).png>)
 
 **Subset**\
 ****\
 ****
 
-![](<../.gitbook/assets/image (16).png>)
+![](<.gitbook/assets/image (16).png>)
