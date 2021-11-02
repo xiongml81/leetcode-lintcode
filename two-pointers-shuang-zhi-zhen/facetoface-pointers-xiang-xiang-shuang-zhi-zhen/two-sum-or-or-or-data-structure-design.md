@@ -1,17 +1,17 @@
-# 170. Two Sum ||| (Data Structure Design)
+# 170. Two Sum \|\|\| \(Data Structure Design\)
 
-[https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/)\
+[https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/)  
 
 
 Design a data structure that accepts a stream of integers and checks if it has a pair of integers that sum up to a particular value.
 
 Implement the TwoSum class:
 
-TwoSum() Initializes the TwoSum object, with an empty array initially. void add(int number) Adds number to the data structure. boolean find(int value) Returns true if there exists any pair of numbers whose sum is equal to value, otherwise, it returns false.
+TwoSum\(\) Initializes the TwoSum object, with an empty array initially. void add\(int number\) Adds number to the data structure. boolean find\(int value\) Returns true if there exists any pair of numbers whose sum is equal to value, otherwise, it returns false.
 
-&#x20;**Example 1:**
+ **Example 1:**
 
-```
+```text
 Input
 ["TwoSum", "add", "add", "add", "find", "find"]
 [[], [1], [3], [5], [4], [7]]
@@ -76,3 +76,4 @@ class TwoSum {
  * boolean param_2 = obj.find(value);
  */
 ```
+

@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Array](array/README.md)
+  * [150. Evaluate Reverse Polish Notation](array/150.-evaluate-reverse-polish-notation.md)
+  * [238. Product of Array Except Self](array/238.-product-of-array-except-self.md)
+  * [28. Implement strStr()](array/28.-implement-strstr.md)
 * [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
   * [173. Binary Search Tree Iterator](binary-tree-and-divide-and-conquer/173.-binary-search-tree-iterator.md)
   * [889. Construct Binary Tree from Preorder and Postorder Traversal](binary-tree-and-divide-and-conquer/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
@@ -74,9 +78,6 @@
   * [994. Rotting Orange](breadthfirst-search-kuan-du-you-xian-sou-suo/994.-rotting-orange.md)
   * [200. Number of Islands](breadthfirst-search-kuan-du-you-xian-sou-suo/200.-number-of-islands.md)
   * [305. Number of Islands II](breadthfirst-search-kuan-du-you-xian-sou-suo/305.-number-of-islands-ii.md)
-* [Array](array/README.md)
-  * [238. Product of Array Except Self](array/238.-product-of-array-except-self.md)
-  * [28. Implement strStr()](array/28.-implement-strstr.md)
 * [Depth First Search (DFS) 深度优先搜索](depth-first-search-dfs.md)
   * [200. Number of Islands](depth-first-search-dfs/200.-number-of-islands.md)
   * [695. Max Area of Island](depth-first-search-dfs/695.-max-area-of-island.md)

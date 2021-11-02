@@ -2,10 +2,10 @@
 
 [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
-\
-Solution 1: Two Pointer&#x20;
+  
+Solution 1: Two Pointer 
 
-T: O(nlogn), S: O(n)
+T: O\(nlogn\), S: O\(n\)
 
 ```java
 class Solution {
@@ -46,9 +46,9 @@ class Solution {
 }
 ```
 
-Solution 2: HashMap\
-\
-T: O(n), S:O(n)
+Solution 2: HashMap  
+  
+T: O\(n\), S:O\(n\)
 
 ```java
 class Solution {
@@ -72,3 +72,4 @@ class Solution {
     }
 }
 ```
+

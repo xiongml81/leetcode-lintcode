@@ -5,18 +5,18 @@
 Queue is an abstract data structure that applies the rule of First-in-First-Out for its elements. Mostly used in BFS implementations of a queue:
 
 * Array: good random access
-* List: good performance for insertion and deletion. A deque is somewhat recursively defined: internally it maintains a double-ended queue of chunks of fixed size. Each chunk is a vector, and the queue ("map" in the graphic below) of chunks itself is also a vector.
+* List: good performance for insertion and deletion. A deque is somewhat recursively defined: internally it maintains a double-ended queue of chunks of fixed size. Each chunk is a vector, and the queue \("map" in the graphic below\) of chunks itself is also a vector.
 
 ### Question: Implement Queue
 
 Implement a Queue. Support the following basic methods:
 
-* enqueue(item). Put a new item in the queue
-* dequeue(). Move the first item out of the queue, return it
+* enqueue\(item\). Put a new item in the queue
+* dequeue\(\). Move the first item out of the queue, return it
 
 Example 1:
 
-```
+```text
 Input:
 enqueue(1)
 enqueue(2)
@@ -28,7 +28,7 @@ dequeue() // return 2
 
 Example 2:
 
-```
+```text
 Input:
 enqueue(10)
 dequeue() //return 10
@@ -178,8 +178,8 @@ class Node{
 
 ### By Circular Array
 
-[https://leetcode-cn.com/problems/design-circular-queue/](https://leetcode-cn.com/problems/design-circular-queue/)\
-\
+[https://leetcode-cn.com/problems/design-circular-queue/](https://leetcode-cn.com/problems/design-circular-queue/)  
+  
 
 
 ```java
@@ -242,21 +242,21 @@ class MyCircularQueue {
  */
 ```
 
-****
+\*\*\*\*
 
 ### Graph Fundamentals
 
-Graph as an offline data structure is often represented by \<E,V>, where E is edge, and V is verte. Thus, graph is a set of verteces and edges.\
+Graph as an offline data structure is often represented by &lt;E,V&gt;, where E is edge, and V is verte. Thus, graph is a set of verteces and edges.  
 Direct Graph vs. Undireted Graph
 
-![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image%20%281%29.png)
 
-Most of the time, BFS is performed on a graph, it applies to both directed and undirected graph.\
+Most of the time, BFS is performed on a graph, it applies to both directed and undirected graph.  
 Tree is a special graph, making things simpler ,where one node would only have up to one parent, and there is no circles in the tree. Topological sorting could only apply to directed graph
 
 ### Graph Representation
 
-![](<../.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/image%20%282%29.png)
 
 **Directed Graph**
 
@@ -276,7 +276,7 @@ Map<Node, Node[]> graph = new HashMap<Node, Node[]>();
 
 
 
-### Breadth First Search (BFS)
+### Breadth First Search \(BFS\)
 
 Most asked type of questions
 
@@ -288,10 +288,10 @@ Most asked type of questions
   * Could be done by both DFS and BFS - they have same time complexity. The biggest issue about DFS is stack over flow, and thus BFS is preferred
 * **Level-Order Traversal**
   * Traversal by level for a graph, tree or matrix
-  * Simple Graph Shortest Path (Simple Directed/Undirected Graph: all edges are of equal length)
+  * Simple Graph Shortest Path \(Simple Directed/Undirected Graph: all edges are of equal length\)
 * **Topological Sorting**
   * Topological Sort must be on directed graph, undirected graph does not apply
-  * Topological Order does not neccessarily exists, neither is it unique  &#x20;
+  * Topological Order does not neccessarily exists, neither is it unique   
   * Get any one topological order
   * Check if unique topological order exists
   * Could be done by both DFS and BFS, BFS is preferred, because DFS is much much hard/more complicated to implement than BFS
@@ -309,8 +309,8 @@ Most asked type of questions
 
 #### BFS on Binary Tree vs. On Graph
 
-* Binary Tree is a directed graph (parent->children)
-* Graph could be directed/undirected (just siblings)
+* Binary Tree is a directed graph \(parent-&gt;children\)
+* Graph could be directed/undirected \(just siblings\)
 * Binary Tree does not need to used hashSet to check if a node has been visited
 * Graph might have circled nodes, and the same node could get into the queue multiple times, need to use HashSet to check if a node has been visited
 
@@ -367,7 +367,9 @@ while (!queue.isEmpty()) {
 
 [https://leetcode.com/problems/clone-graph/](https://leetcode.com/problems/clone-graph/)
 
-\
+  
+
+
 
 
 
