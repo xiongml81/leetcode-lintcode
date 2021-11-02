@@ -1,6 +1,6 @@
 # 242. Convert Binary Tree to Linked Lists by Depth
 
-[https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/](https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/)  
+[https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/](https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/)\
 
 
 Solution 1: DFS
@@ -56,24 +56,24 @@ public class Solution {
 }
 ```
 
-depth代表当前调用在树的哪一层，当前层对应的链表应该是res\[depth - 1\] res.size\(\) &lt; depth 是指当前层链表还没创建呢。所以node直接add进去当head。
+depth代表当前调用在树的哪一层，当前层对应的链表应该是res\[depth - 1] res.size() < depth 是指当前层链表还没创建呢。所以node直接add进去当head。
 
-else就是当前层链表已经创建过了。node应该add进去当head。 node.next = res.get\(depth - 1\);就是把node放到链表头  
-  
+else就是当前层链表已经创建过了。node应该add进去当head。 node.next = res.get(depth - 1);就是把node放到链表头\
+\
 
 
-```text
+```
     dfs(root.right, depth + 1, res);
     dfs(root.left, depth + 1, res);
 ```
 
 这个顺序不能换。因为咱们从tail构建链表，树咱们得从右往左看。所以得优先右子树。
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (6).png>)
 
 
 
-  
+\
 Solution 2: BFS
 
 ```java
@@ -137,4 +137,3 @@ public class Solution {
     }
 }
 ```
-

@@ -2,15 +2,15 @@
 
 ## 1.Question: Partition Array
 
-Given an array nums of integers and an int k, partition the array \(i.e move the elements in "nums"\) such that: All elements &lt; k are moved to the left All elements &gt;= k are moved to the right Return the partitioning index, i.e the first index i nums\[i\] &gt;= k.   
-Example 1: 
+Given an array nums of integers and an int k, partition the array (i.e move the elements in "nums") such that: All elements < k are moved to the left All elements >= k are moved to the right Return the partitioning index, i.e the first index i nums\[i] >= k. \
+Example 1:&#x20;
 
-`Input: [],9   Output: 0` 
+`Input: [],9   Output: 0 `
 
 Example 2:
 
-`Input: [3,2,2,1],2 Output:1`  
-Explanation: the real array is\[1,2,2,3\]. So return 1
+`Input: [3,2,2,1],2 Output:1`\
+Explanation: the real array is\[1,2,2,3]. So return 1
 
 ### 1.1 Code
 
@@ -44,11 +44,11 @@ public static int partition(int[] nums, int k) {
 
 ### 2.1 Pick Pivot
 
-Random pick \(usually not necessary, and there is cost associate with it to call rand\(\)\) Rule of thumb: take mid index
+Random pick (usually not necessary, and there is cost associate with it to call rand()) Rule of thumb: take mid index
 
 ### 2.2 题目地址
 
-[**https://leetcode.com/problems/sort-an-array/**](https://leetcode.com/problems/sort-an-array/)\*\*\*\*
+[**https://leetcode.com/problems/sort-an-array/**](https://leetcode.com/problems/sort-an-array/)****
 
 ### 2.3 Code
 
@@ -90,11 +90,11 @@ public static int partition(int[] nums, int start, int end){
 
 ### 2.4 Why not strict cut?
 
-For quick sort, partition by pivot is done as: $ &lt;= P$ + $ &gt;= P$ \(num\[left\] &lt; pivot -&gt; no change, num\[left\] &gt;= pivot -&gt; move to right; num\[right\] &gt; pivot -&gt; no change, num\[right\] &lt;= pivot, move to left. So that it is balanced. e.g. \[11111111111\]: in this case, the "else" condition will be executed and when that happens, along with swap, both left and right point would move, so that we get balanced cut of the array When most/all of the elements are the same value, divide would be extremely unbalanced If each cut is very unbalaned: time complexity would be $O\(1\)$ Extreme case: all elements are equal, at each dvide, if we do $ &lt; P$ + $ &gt;= P$, then left: $0$; right: $n$ ==&gt; cannot exit
+For quick sort, partition by pivot is done as: $ <= P$ + $ >= P$ (num\[left] < pivot -> no change, num\[left] >= pivot -> move to right; num\[right] > pivot -> no change, num\[right] <= pivot, move to left. So that it is balanced. e.g. \[11111111111]: in this case, the "else" condition will be executed and when that happens, along with swap, both left and right point would move, so that we get balanced cut of the array When most/all of the elements are the same value, divide would be extremely unbalanced If each cut is very unbalaned: time complexity would be $O(1)$ Extreme case: all elements are equal, at each dvide, if we do $ < P$ + $ >= P$, then left: $0$; right: $n$ ==> cannot exit
 
-### 2.5 Why left &lt;= right?
+### 2.5 Why left <= right?
 
-e.g. nums = \[3, 2, 1, 4, 5\] Init: left -&gt; 3; right -&gt; 5, pivot =-&gt; 1 After a while: left -&gt; 3, right -&gt; 1; Swap: \[1, 2, 3, 4, 5\], left -&gt; 2, right -&gt; 2 Now do while big loop, no longer meet left &lt; right, exit Consequence: element 2 included in both sub-quick\_sorts Now let's focus on left sub-quick\_sorts on \[1, 2\] Init: left -&gt; 1; right -&gt; 2; After a while: left -&gt; 1; right -&gt; 1; Now do while big loop, no longer meet left &lt; right, exit Now right sub-quick\_sort still is \[1, 2\] - did not shrink; infinite recursion!!!
+e.g. nums = \[3, 2, 1, 4, 5] Init: left -> 3; right -> 5, pivot =-> 1 After a while: left -> 3, right -> 1; Swap: \[1, 2, 3, 4, 5], left -> 2, right -> 2 Now do while big loop, no longer meet left < right, exit Consequence: element 2 included in both sub-quick\_sorts Now let's focus on left sub-quick\_sorts on \[1, 2] Init: left -> 1; right -> 2; After a while: left -> 1; right -> 1; Now do while big loop, no longer meet left < right, exit Now right sub-quick\_sort still is \[1, 2] - did not shrink; infinite recursion!!!
 
 ### 2.6 Why we cannot use the same code for partition array
 
@@ -102,21 +102,21 @@ Partition array requires to partition the array into two parts, one part satisfi
 
 ## 3. Extensions - Quick Select
 
-Select Pivot \(mid index\) ==&gt; $\ge pivot + \le pivot$ Check is index $k$ on the left or right, and only need to look at exactly ONE side Time Complexity: Avg: $T\(n\) = T\(n\) + T\(n/2\) \rightarrow O\(n\)$, Worst: $O\(n^2\)$ Space Complexity: $O\(1\)$
+Select Pivot (mid index) ==> $\ge pivot + \le pivot$ Check is index $k$ on the left or right, and only need to look at exactly ONE side Time Complexity: Avg: $T(n) = T(n) + T(n/2) \rightarrow O(n)$, Worst: $O(n^2)$ Space Complexity: $O(1)$
 
 ### **3.1 Question: Find K-th largest element in an array**
 
 ### 3.2 题目
 
-\*\*\*\*[**https://leetcode.com/problems/kth-largest-element-in-an-array/**](https://leetcode.com/problems/kth-largest-element-in-an-array/)\*\*\*\*
+****[**https://leetcode.com/problems/kth-largest-element-in-an-array/**](https://leetcode.com/problems/kth-largest-element-in-an-array/)****
 
 Find the **k**th largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
-​Example 1：  
-`Input: k = 1, nums = [1,3,4,2] Output: 4`  
+​Example 1：\
+`Input: k = 1, nums = [1,3,4,2] Output: 4`\
 
 
-Example 2：  
+Example 2：\
 `Input: k = 3, nums = [9,3,2,4,8] Output: 4`
 
 ### 3.3 Code
@@ -167,8 +167,6 @@ class Solution {
     }
 }
 ```
-
-
 
 
 
