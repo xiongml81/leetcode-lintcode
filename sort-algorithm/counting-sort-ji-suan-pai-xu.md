@@ -1,7 +1,7 @@
 # Counting Sort 计算排序
 
-[https://leetcode.com/problems/sort-colors/](https://leetcode.com/problems/sort-colors/)  
-  
+[https://leetcode.com/problems/sort-colors/](https://leetcode.com/problems/sort-colors/)\
+\
 
 
 ```java
@@ -24,6 +24,4 @@ class Solution {
 }
 ```
 
-  
-
-
+\
