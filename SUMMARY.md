@@ -63,6 +63,7 @@
   * [437. Copy Book 书籍复印](binary-search-er-fen-cha-zhao/437.-copy-book-shu-ji-fu-yin.md)
   * [302. Smallest Rectangle Enclosing Black Pixels](binary-search-er-fen-cha-zhao/302.-smallest-rectangle-enclosing-black-pixels.md)
 * [Breadth-First Search 宽度优先搜索](breadthfirst-search-kuan-du-you-xian-sou-suo/README.md)
+  * [1293. Shortest Path in a Grid with Obstacles Elimination](breadthfirst-search-kuan-du-you-xian-sou-suo/1293.-shortest-path-in-a-grid-with-obstacles-elimination.md)
   * [207. Course Schedule](breadthfirst-search-kuan-du-you-xian-sou-suo/207.-course-schedule.md)
   * [1197. Minimum Knight Moves](breadthfirst-search-kuan-du-you-xian-sou-suo/1197.-minimum-knight-moves.md)
   * [141. Linked List Cycle](breadthfirst-search-kuan-du-you-xian-sou-suo/141.-linked-list-cycle.md)
