@@ -2,7 +2,7 @@
 
 **1.Divide & Conquer (D & C)**
 
-Divide big problem into several similar and smaller problems** **\
+Divide big problem into several similar and smaller problems **** \
 ****D\&C vs. Binary Search
 
 * Assime the process time is O(1)
@@ -41,6 +41,8 @@ How many subtrees are there in a binary tree? O(n) - all the nodes in the tree\
 ![](<../.gitbook/assets/image (5).png>)
 
 Binary Tree Traversal
+
+![](<../.gitbook/assets/image (17).png>)
 
 in order\
 [https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
