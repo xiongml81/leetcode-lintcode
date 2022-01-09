@@ -7,6 +7,7 @@
   * [28. Implement strStr()](array/28.-implement-strstr.md)
 * [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
   * [144. Binary Tree Preorder Traversal](binary-tree-and-divide-and-conquer/144.-binary-tree-preorder-traversal.md)
+  * [94. Binary Tree Inorder Traversal](binary-tree-and-divide-and-conquer/94.-binary-tree-inorder-traversal.md)
   * [173. Binary Search Tree Iterator](binary-tree-and-divide-and-conquer/173.-binary-search-tree-iterator.md)
   * [889. Construct Binary Tree from Preorder and Postorder Traversal](binary-tree-and-divide-and-conquer/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
   * [1008. Construct Binary Search Tree from Preorder Traversal](binary-tree-and-divide-and-conquer/1008.-construct-binary-search-tree-from-preorder-traversal.md)
