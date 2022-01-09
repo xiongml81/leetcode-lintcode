@@ -6,7 +6,7 @@
   * [238. Product of Array Except Self](array/238.-product-of-array-except-self.md)
   * [28. Implement strStr()](array/28.-implement-strstr.md)
 * [Binary Tree and Divide & Conquer 二叉树和分治法](binary-tree-and-divide-and-conquer/README.md)
-  * [Page 1](binary-tree-and-divide-and-conquer/page-1.md)
+  * [145. Binary Tree Postorder Traversal](binary-tree-and-divide-and-conquer/145.-binary-tree-postorder-traversal.md)
   * [144. Binary Tree Preorder Traversal](binary-tree-and-divide-and-conquer/144.-binary-tree-preorder-traversal.md)
   * [94. Binary Tree Inorder Traversal](binary-tree-and-divide-and-conquer/94.-binary-tree-inorder-traversal.md)
   * [173. Binary Search Tree Iterator](binary-tree-and-divide-and-conquer/173.-binary-search-tree-iterator.md)
