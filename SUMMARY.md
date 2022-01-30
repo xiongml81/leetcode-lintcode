@@ -9,6 +9,7 @@
   * [145. Binary Tree Postorder Traversal](binary-tree-and-divide-and-conquer/145.-binary-tree-postorder-traversal.md)
   * [144. Binary Tree Preorder Traversal](binary-tree-and-divide-and-conquer/144.-binary-tree-preorder-traversal.md)
   * [94. Binary Tree Inorder Traversal](binary-tree-and-divide-and-conquer/94.-binary-tree-inorder-traversal.md)
+  * [98. Validate Binary Search Tree](binary-tree-and-divide-and-conquer/98.-validate-binary-search-tree.md)
   * [173. Binary Search Tree Iterator](binary-tree-and-divide-and-conquer/173.-binary-search-tree-iterator.md)
   * [700. Search in a Binary Search Tree](binary-tree-and-divide-and-conquer/700.-search-in-a-binary-search-tree.md)
   * [701. Insert into a Binary Search Tree](binary-tree-and-divide-and-conquer/701.-insert-into-a-binary-search-tree.md)
