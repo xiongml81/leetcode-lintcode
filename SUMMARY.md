@@ -12,6 +12,7 @@
   * [173. Binary Search Tree Iterator](binary-tree-and-divide-and-conquer/173.-binary-search-tree-iterator.md)
   * [700. Search in a Binary Search Tree](binary-tree-and-divide-and-conquer/700.-search-in-a-binary-search-tree.md)
   * [701. Insert into a Binary Search Tree](binary-tree-and-divide-and-conquer/701.-insert-into-a-binary-search-tree.md)
+  * [450. Delete Node in a BST](binary-tree-and-divide-and-conquer/450.-delete-node-in-a-bst.md)
   * [889. Construct Binary Tree from Preorder and Postorder Traversal](binary-tree-and-divide-and-conquer/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
   * [1008. Construct Binary Search Tree from Preorder Traversal](binary-tree-and-divide-and-conquer/1008.-construct-binary-search-tree-from-preorder-traversal.md)
   * [114. Flattenn Binary Tree to Linked List](binary-tree-and-divide-and-conquer/114.-flattenn-binary-tree-to-linked-list.md)
