@@ -95,3 +95,8 @@
 * [Sliding Window 滑动窗口](sliding-window-hua-dong-chuang-kou/README.md)
   * [76. Minimum Window Substring](sliding-window-hua-dong-chuang-kou/76.-minimum-window-substring.md)
   * [643. Maximum Average Subarray I](sliding-window-hua-dong-chuang-kou/643.-maximum-average-subarray-i.md)
+
+## Group 1
+
+* [HashMap](group-1/hashmap/README.md)
+  * [290. Word Pattern](group-1/hashmap/290.-word-pattern.md)
