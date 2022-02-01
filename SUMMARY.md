@@ -100,3 +100,4 @@
 
 * [HashMap](group-1/hashmap/README.md)
   * [290. Word Pattern](group-1/hashmap/290.-word-pattern.md)
+  * [291. Word Pattern II](group-1/hashmap/291.-word-pattern-ii.md)
