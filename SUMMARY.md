@@ -103,3 +103,4 @@
   * [291. Word Pattern II](group-1/hashmap/291.-word-pattern-ii.md)
   * [525. Contiguous Array](group-1/hashmap/525.-contiguous-array.md)
   * [3. Longest Substring Without Repeating Characters](group-1/hashmap/3.-longest-substring-without-repeating-characters.md)
+  * [76. Minimum Window Substring](group-1/hashmap/76.-minimum-window-substring.md)
