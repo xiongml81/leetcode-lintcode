@@ -106,3 +106,4 @@
   * [76. Minimum Window Substring](group-1/hashmap/76.-minimum-window-substring.md)
 * [Stack](group-1/stack/README.md)
   * [20. Valid Parentheses](group-1/stack/20.-valid-parentheses.md)
+  * [716. Max Stack](group-1/stack/716.-max-stack.md)
