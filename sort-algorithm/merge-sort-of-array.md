@@ -6,13 +6,13 @@ Merge two given sorted ascending integer array A and B into a new sorted integer
 
 Example 1:
 
-`Input: A=[1], B=[1] Output: [1,1] `
+`Input: A=[1], B=[1] Output: [1,1]`&#x20;
 
 `Explanation: return array merged.`
 
 Example 2:
 
-`Input: A=[1,2,3,4], B=[2,4,5,6] Output: [1,2,2,3,4,4,5,6] `
+`Input: A=[1,2,3,4], B=[2,4,5,6] Output: [1,2,2,3,4,4,5,6]`&#x20;
 
 `Explanation: return array merged.`
 
@@ -141,6 +141,60 @@ class Solution {
         mergeSort(nums, left, mid);
         mergeSort(nums, mid + 1, right);
         merge(nums, left, right, mid);
+    }
+}
+```
+
+
+
+### 2.2 题目
+
+### [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+
+
+Merge Two Sorted Lists
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if(l1 == null) return l2;
+        if(l2 == null) return l1;
+        
+        ListNode dummy = new ListNode();
+        ListNode tail = dummy;
+        
+        while(l1 != null && l2 != null){
+            if(l1.val < l2.val){
+              tail.next = l1;
+              l1 = l1.next;          
+            }
+            else{
+              tail.next = l2;
+              l2 = l2.next;  
+            }
+            tail = tail.next;
+        }
+        
+        if(l1 == null){
+            tail.next = l2;
+        }
+        
+        if(l2 == null){
+            tail.next = l1;
+        }
+        return dummy.next;
+        
     }
 }
 ```
