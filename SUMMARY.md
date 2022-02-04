@@ -108,3 +108,4 @@
   * [20. Valid Parentheses](group-1/stack/20.-valid-parentheses.md)
   * [716. Max Stack](group-1/stack/716.-max-stack.md)
   * [224. Basic Calculator](group-1/stack/224.-basic-calculator.md)
+  * [316. Remove Duplicate Letters](group-1/stack/316.-remove-duplicate-letters.md)
