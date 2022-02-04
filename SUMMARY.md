@@ -109,3 +109,4 @@
   * [716. Max Stack](group-1/stack/716.-max-stack.md)
   * [224. Basic Calculator](group-1/stack/224.-basic-calculator.md)
   * [316. Remove Duplicate Letters](group-1/stack/316.-remove-duplicate-letters.md)
+  * [84. Largest Rectangle in Histogram](group-1/stack/84.-largest-rectangle-in-histogram.md)
