@@ -5,7 +5,7 @@
 Given an array nums of integers and an int k, partition the array (i.e move the elements in "nums") such that: All elements < k are moved to the left All elements >= k are moved to the right Return the partitioning index, i.e the first index i nums\[i] >= k. \
 Example 1:&#x20;
 
-`Input: [],9   Output: 0 `
+`Input: [],9   Output: 0`&#x20;
 
 Example 2:
 
@@ -167,6 +167,9 @@ class Solution {
     }
 }
 ```
+
+本题的另一解法是优先队列，参考如下：\
+[https://app.gitbook.com/s/-MP\_cjvI9i6VrTA22Ak9/group-1/stack/215.-kth-largest-element-in-an-array](../group-1/stack/215.-kth-largest-element-in-an-array.md)
 
 
 
