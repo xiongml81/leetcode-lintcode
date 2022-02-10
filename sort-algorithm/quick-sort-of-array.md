@@ -169,7 +169,7 @@ class Solution {
 ```
 
 本题的另一解法是优先队列，参考如下：\
-[https://app.gitbook.com/s/-MP\_cjvI9i6VrTA22Ak9/group-1/stack/215.-kth-largest-element-in-an-array](../group-1/stack/215.-kth-largest-element-in-an-array.md)
+[https://app.gitbook.com/s/-MP\_cjvI9i6VrTA22Ak9/group-1/stack/215.-kth-largest-element-in-an-array](../shu-ju-jie-gou/stack-and-heap/215.-kth-largest-element-in-an-array.md)
 
 
 
