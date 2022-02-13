@@ -37,6 +37,7 @@
   * [Quick Sort of Array 快速排序](sort-algorithm/quick-sort-of-array.md)
   * [Counting Sort 计算排序](sort-algorithm/counting-sort-ji-suan-pai-xu.md)
   * [Rainbow Sort 彩虹排序](sort-algorithm/rainbow-sort-cai-hong-pai-xu.md)
+  * [296. Best Meeting Point](sort-algorithm/296.-best-meeting-point.md)
   * [179. Largest Number](sort-algorithm/179.-largest-number.md)
 * [Two Pointers 双指针](two-pointers-shuang-zhi-zhen/README.md)
   * [Face-to-Face Pointers 相向双指针](two-pointers-shuang-zhi-zhen/facetoface-pointers-xiang-xiang-shuang-zhi-zhen/README.md)
