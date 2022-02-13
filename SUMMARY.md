@@ -127,4 +127,4 @@
   * [133. Clone Graph](shu-ju-jie-gou/graph/133.-clone-graph.md)
   * [332. Reconstruct Itinerary](shu-ju-jie-gou/graph/332.-reconstruct-itinerary.md)
   * [310. Minimum Height Trees](shu-ju-jie-gou/graph/310.-minimum-height-trees.md)
-* [Page 1](shu-ju-jie-gou/page-1.md)
+* [Union Find](shu-ju-jie-gou/union-find.md)
