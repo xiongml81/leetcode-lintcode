@@ -132,3 +132,4 @@
 * [Recursion](shu-ju-jie-gou/recursion/README.md)
   * [89. Gray Code](shu-ju-jie-gou/recursion/89.-gray-code.md)
   * [0-1 Knapsack 背包问题](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti.md)
+  * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
