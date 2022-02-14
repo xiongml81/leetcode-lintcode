@@ -129,4 +129,4 @@
   * [332. Reconstruct Itinerary](shu-ju-jie-gou/graph/332.-reconstruct-itinerary.md)
   * [310. Minimum Height Trees](shu-ju-jie-gou/graph/310.-minimum-height-trees.md)
 * [Union Find](shu-ju-jie-gou/union-find.md)
-* [Re](shu-ju-jie-gou/re.md)
+* [Recursion](shu-ju-jie-gou/recursion.md)
