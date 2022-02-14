@@ -7,5 +7,5 @@
 \-Define the return value\
 ****
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
