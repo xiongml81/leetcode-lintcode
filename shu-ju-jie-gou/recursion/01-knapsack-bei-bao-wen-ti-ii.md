@@ -48,7 +48,7 @@ public static void main(String[] args) {
 	public static  void knapsack(int[] items, ArrayList<ArrayList<Integer>> result, ArrayList<Integer> cur, int index, int target){
 
 		if(target == 0){
-			result.add(new ArrayList<Integer>(cur));
+			result.add(new ArrayList<Integer>(cur));//共用参数，需要重新创建
 			return;
 		}
 
