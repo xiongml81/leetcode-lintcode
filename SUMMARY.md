@@ -134,4 +134,5 @@
   * [0-1 Knapsack 背包问题](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti.md)
   * [0-1 Knapsack 背包问题 II](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-ii.md)
   * [0-1 Knapsack 背包问题 III](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-iii.md)
+  * [0-1 Knapsack 背包问题 IV](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-iv.md)
   * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
