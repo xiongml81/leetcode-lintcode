@@ -64,3 +64,27 @@ public static void main(String[] args) {
 
 	}
 ```
+
+解法2：\
+
+
+```java
+public static void knapsack2(int[] items, ArrayList<ArrayList<Integer>> result,
+								 ArrayList<Integer> cur, int index, int target){
+		if(target == 0){
+			result.add(new ArrayList<Integer>(cur));
+			return;
+		}
+
+		if(target < 0 || (items.length == index && target != 0)){
+			return;
+		}
+
+		for(int i = index; i < items.length; i++){
+			cur.add(items[i]);
+			knapsack2(items, result, cur, i, target - items[i] );
+			cur.remove(cur.size() - 1);
+		}
+
+	}
+```
