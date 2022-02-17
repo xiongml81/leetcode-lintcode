@@ -139,4 +139,5 @@
   * [47. Permutations II](shu-ju-jie-gou/recursion/47.-permutations-ii.md)
   * [78. Subsets](shu-ju-jie-gou/recursion/78.-subsets.md)
   * [77. Combinations](shu-ju-jie-gou/recursion/77.-combinations.md)
+  * [282. Expression Add Operators](shu-ju-jie-gou/recursion/282.-expression-add-operators.md)
   * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
