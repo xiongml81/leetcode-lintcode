@@ -137,6 +137,6 @@
   * [0-1 Knapsack 背包问题 IV](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-iv.md)
   * [46. Permutations](shu-ju-jie-gou/recursion/46.-permutations.md)
   * [47. Permutations II](shu-ju-jie-gou/recursion/47.-permutations-ii.md)
-  * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
   * [78. Subsets](shu-ju-jie-gou/recursion/78.-subsets.md)
   * [77. Combinations](shu-ju-jie-gou/recursion/77.-combinations.md)
+  * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
