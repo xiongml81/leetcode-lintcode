@@ -143,3 +143,4 @@
   * [77. Combinations](shu-ju-jie-gou/recursion/77.-combinations.md)
   * [282. Expression Add Operators](shu-ju-jie-gou/recursion/282.-expression-add-operators.md)
   * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
+  * [79. Word Search](shu-ju-jie-gou/recursion/79.-word-search.md)
