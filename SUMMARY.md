@@ -91,6 +91,7 @@
 * [Depth First Search (DFS) 深度优先搜索](depth-first-search-dfs.md)
   * [104. Maximum Depth of Binary Tree](depth-first-search-dfs/104.-maximum-depth-of-binary-tree.md)
   * [110. Balanced Binary Tree](depth-first-search-dfs/110.-balanced-binary-tree.md)
+  * [101. Symmetric Tree](depth-first-search-dfs/101.-symmetric-tree.md)
   * [547. Number of Provinces](depth-first-search-dfs/547.-number-of-provinces.md)
   * [200. Number of Islands](depth-first-search-dfs/200.-number-of-islands.md)
   * [130. Surrounded Regions](depth-first-search-dfs/130.-surrounded-regions.md)
