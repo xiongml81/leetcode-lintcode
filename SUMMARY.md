@@ -153,3 +153,7 @@
   * [93. Restore IP Addresses](shu-ju-jie-gou/recursion/93.-restore-ip-addresses.md)
   * [52. N-Queens II](shu-ju-jie-gou/recursion/52.-n-queens-ii.md)
   * [51. N-Queens](shu-ju-jie-gou/recursion/51.-n-queens.md)
+* [Amazon](shu-ju-jie-gou/amazon/README.md)
+  * [Amazon OA 1](shu-ju-jie-gou/amazon/amazon-oa-1.md)
+  * [Amazon OA 2](shu-ju-jie-gou/amazon/amazon-oa-2.md)
+  * [Amazon OA 3](shu-ju-jie-gou/amazon/amazon-oa-3.md)
