@@ -157,3 +157,4 @@
   * [Amazon OA 1](shu-ju-jie-gou/amazon/amazon-oa-1.md)
   * [Amazon OA 2](shu-ju-jie-gou/amazon/amazon-oa-2.md)
   * [Amazon OA 3](shu-ju-jie-gou/amazon/amazon-oa-3.md)
+  * [828. Count Unique Characters of All Substrings of a Given String](shu-ju-jie-gou/amazon/828.-count-unique-characters-of-all-substrings-of-a-given-string.md)
