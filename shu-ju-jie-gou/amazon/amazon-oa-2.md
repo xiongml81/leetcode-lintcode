@@ -27,25 +27,30 @@ class Result {
      */
 
     public static long findPasswordStrength(String s) {
-        
-        Map<Character, long[]> map = new HashMap<>();
-        long pre = 0;
-        long res = 0;
-        
-        for(int i = 0; i < s.length(); i++){
-            long cur = pre + i + 1;
-            char c = s.charAt(i);
-            if(!map.containsKey(c)){
-                 map.put(c, new long[] {0,0});
-            }
-            long[] v = map.get(c);
-            map.put(c, new long[]{ i+1, v[0]+v[1] });
-            res += cur - sum(map);
-            pre = cur;
-           
-        }
-        return res;
-    }
+		Map<Character, long[]> map = new HashMap<>();
+		long pre = 0;
+		long res = 0;
+//teet,
+//t				cur = 1
+//te -> e, te	cur = 3,	i = 1
+//tee -> e', ee', tee', 	cur = 6,	i=2, res = 4, curres = 1
+//teet -> et', eet', teet', t' cur = 10,		res = 9, curres = 3
+
+		for(int i = 0; i < s.length(); i++){
+			long cur = pre + i + 1;
+			char c = s.charAt(i);
+			if(!map.containsKey(c)){
+				map.put(c, new long[] {0,0});
+			}
+			long[] v = map.get(c);
+			map.put(c, new long[]{ i+1, v[0]+v[1] }); //{3,2}
+			res += cur - sum(map); //curres = 4; {ee, tee}
+			pre = cur;
+
+		}
+		return res;
+	}
+	
     public static long sum(Map<Character, long[]> map){
         long res = 0;
         for(long[] values : map.values()){
@@ -53,6 +58,5 @@ class Result {
         }
         return res;
     }
-
 }
 ```
