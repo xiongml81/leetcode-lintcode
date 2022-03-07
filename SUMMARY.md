@@ -148,6 +148,7 @@
   * [47. Permutations II](shu-ju-jie-gou/recursion/47.-permutations-ii.md)
   * [78. Subsets](shu-ju-jie-gou/recursion/78.-subsets.md)
   * [90. Subsets II](shu-ju-jie-gou/recursion/90.-subsets-ii.md)
+  * [131. Palindrome Partitioning](shu-ju-jie-gou/recursion/131.-palindrome-partitioning.md)
   * [17. Letter Combinations of a Phone Number](shu-ju-jie-gou/recursion/17.-letter-combinations-of-a-phone-number.md)
   * [77. Combinations](shu-ju-jie-gou/recursion/77.-combinations.md)
   * [282. Expression Add Operators](shu-ju-jie-gou/recursion/282.-expression-add-operators.md)
