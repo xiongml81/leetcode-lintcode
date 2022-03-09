@@ -140,6 +140,8 @@
   * [100. Same Tree](shu-ju-jie-gou/recursion/100.-same-tree.md)
   * [101. Symmetric Tree](shu-ju-jie-gou/recursion/101.-symmetric-tree.md)
   * [111. Minimum Depth of Binary Tree](shu-ju-jie-gou/recursion/111.-minimum-depth-of-binary-tree.md)
+  * [652. Find Duplicate Subtrees](shu-ju-jie-gou/recursion/652.-find-duplicate-subtrees.md)
+  * [654. Maximum Binary Tree](shu-ju-jie-gou/recursion/654.-maximum-binary-tree.md)
   * [116. Populating Next Right Pointers in Each Node](shu-ju-jie-gou/recursion/116.-populating-next-right-pointers-in-each-node.md)
   * [494. Target Sum](shu-ju-jie-gou/recursion/494.-target-sum.md)
   * [112. Path Sum](shu-ju-jie-gou/recursion/112.-path-sum.md)
