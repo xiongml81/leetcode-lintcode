@@ -1,5 +1,9 @@
 # Binary Tree and Divide & Conquer 二叉树和分治法
 
+经验
+
+{% embed url="https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/shou-ba-shou-dai-ni-shua-er-cha-shu-di-yi-qi-by-la" %}
+
 **1.Divide & Conquer (D & C)**
 
 Divide big problem into several similar and smaller problems **** \
