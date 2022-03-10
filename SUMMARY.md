@@ -91,6 +91,8 @@
 * [Depth First Search (DFS) 深度优先搜索](depth-first-search-dfs.md)
   * [547. Number of Provinces](depth-first-search-dfs/547.-number-of-provinces.md)
   * [200. Number of Islands](depth-first-search-dfs/200.-number-of-islands.md)
+  * [1254. Number of Closed Islands](depth-first-search-dfs/1254.-number-of-closed-islands.md)
+  * [1020. Number of Enclaves](depth-first-search-dfs/1020.-number-of-enclaves.md)
   * [130. Surrounded Regions](depth-first-search-dfs/130.-surrounded-regions.md)
   * [695. Max Area of Island](depth-first-search-dfs/695.-max-area-of-island.md)
 * [Sliding Window 滑动窗口](sliding-window-hua-dong-chuang-kou/README.md)
