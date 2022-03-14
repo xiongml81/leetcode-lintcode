@@ -10,6 +10,7 @@
   * [700. Search in a Binary Search Tree](binary-tree-and-divide-and-conquer/700.-search-in-a-binary-search-tree.md)
   * [701. Insert into a Binary Search Tree](binary-tree-and-divide-and-conquer/701.-insert-into-a-binary-search-tree.md)
   * [450. Delete Node in a BST](binary-tree-and-divide-and-conquer/450.-delete-node-in-a-bst.md)
+  * [538. Convert BST to Greater Tree](binary-tree-and-divide-and-conquer/538.-convert-bst-to-greater-tree.md)
   * [208. Implement Trie (Prefix Tree)](binary-tree-and-divide-and-conquer/208.-implement-trie-prefix-tree.md)
   * [588. Design In-Memory File System](binary-tree-and-divide-and-conquer/588.-design-in-memory-file-system.md)
   * [889. Construct Binary Tree from Preorder and Postorder Traversal](binary-tree-and-divide-and-conquer/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
