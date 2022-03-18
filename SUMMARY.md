@@ -89,6 +89,7 @@
   * [624. Remove Substrings](breadthfirst-search-kuan-du-you-xian-sou-suo/624.-remove-substrings.md)
   * [490. The Maze](breadthfirst-search-kuan-du-you-xian-sou-suo/490.-the-maze.md)
   * [迷宫问题求最短路径](breadthfirst-search-kuan-du-you-xian-sou-suo/mi-gong-wen-ti-qiu-zui-duan-lu-jing.md)
+  * [505. The Maze II](breadthfirst-search-kuan-du-you-xian-sou-suo/505.-the-maze-ii.md)
   * [547. Number of Provinces](breadthfirst-search-kuan-du-you-xian-sou-suo/547.-number-of-provinces.md)
   * [994. Rotting Orange](breadthfirst-search-kuan-du-you-xian-sou-suo/994.-rotting-orange.md)
   * [200. Number of Islands](breadthfirst-search-kuan-du-you-xian-sou-suo/200.-number-of-islands.md)
