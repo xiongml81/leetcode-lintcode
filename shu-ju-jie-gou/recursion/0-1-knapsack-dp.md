@@ -18,7 +18,7 @@ val = [4, 2, 3]
 
 DFS:
 
-```
+```java
 public static void knapsack(int index, int sumw, int sumv, int s, int[] weights, int[] values){
 		if(index == weights.length){
 			if(sumw <= s){
