@@ -184,6 +184,7 @@
   * [490. The Maze](shu-ju-jie-gou/recursion/490.-the-maze.md)
   * [79. Word Search](shu-ju-jie-gou/recursion/79.-word-search.md)
   * [93. Restore IP Addresses](shu-ju-jie-gou/recursion/93.-restore-ip-addresses.md)
+  * [329. Longest Increasing Path in a Matrix](shu-ju-jie-gou/recursion/329.-longest-increasing-path-in-a-matrix.md)
   * [52. N-Queens II](shu-ju-jie-gou/recursion/52.-n-queens-ii.md)
   * [51. N-Queens](shu-ju-jie-gou/recursion/51.-n-queens.md)
 * [Amazon](shu-ju-jie-gou/amazon/README.md)
