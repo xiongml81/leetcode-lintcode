@@ -131,6 +131,7 @@
   * [150. Evaluate Reverse Polish Notation](shu-ju-jie-gou/array/150.-evaluate-reverse-polish-notation.md)
   * [844. Backspace String Compare](shu-ju-jie-gou/array/844.-backspace-string-compare.md)
   * [238. Product of Array Except Self](shu-ju-jie-gou/array/238.-product-of-array-except-self.md)
+  * [1487. Making File Names Unique](shu-ju-jie-gou/array/1487.-making-file-names-unique.md)
   * [28. Implement strStr()](shu-ju-jie-gou/array/28.-implement-strstr.md)
 * [HashMap](shu-ju-jie-gou/hashmap/README.md)
   * [290. Word Pattern](shu-ju-jie-gou/hashmap/290.-word-pattern.md)
