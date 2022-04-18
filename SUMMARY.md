@@ -33,6 +33,7 @@
   * [597. Subtree with Maximum Average](binary-tree-and-divide-and-conquer/597.-subtree-with-maximum-average.md)
   * [596. Minimum Subtree](binary-tree-and-divide-and-conquer/596.-minimum-subtree.md)
   * [96. Unique Binary Search Trees](binary-tree-and-divide-and-conquer/96.-unique-binary-search-trees.md)
+  * [99. Recover Binary Search Tree](binary-tree-and-divide-and-conquer/99.-recover-binary-search-tree.md)
   * [242. Convert Binary Tree to Linked Lists by Depth](binary-tree-and-divide-and-conquer/untitled.md)
 * [Sort Algorithm 排序](sort-algorithm/README.md)
   * [Bubble Sort 冒泡排序](sort-algorithm/bubble-sort-mao-pao-pai-xu.md)
