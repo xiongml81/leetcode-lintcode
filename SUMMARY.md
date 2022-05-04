@@ -14,6 +14,7 @@
   * [538. Convert BST to Greater Tree](binary-tree-and-divide-and-conquer/538.-convert-bst-to-greater-tree.md)
   * [230. Kth Smallest Element in a BST](binary-tree-and-divide-and-conquer/230.-kth-smallest-element-in-a-bst.md)
   * [208. Implement Trie (Prefix Tree)](binary-tree-and-divide-and-conquer/208.-implement-trie-prefix-tree.md)
+  * [1268. Search Suggestions System](binary-tree-and-divide-and-conquer/1268.-search-suggestions-system.md)
   * [588. Design In-Memory File System](binary-tree-and-divide-and-conquer/588.-design-in-memory-file-system.md)
   * [889. Construct Binary Tree from Preorder and Postorder Traversal](binary-tree-and-divide-and-conquer/889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
   * [1008. Construct Binary Search Tree from Preorder Traversal](binary-tree-and-divide-and-conquer/1008.-construct-binary-search-tree-from-preorder-traversal.md)
