@@ -115,6 +115,7 @@
   * [64. Minimum Path Sum](dynamic-programming/64.-minimum-path-sum.md)
   * [322. Coin Change](dynamic-programming/322.-coin-change.md)
   * [518. Coin Change 2](dynamic-programming/518.-coin-change-2.md)
+  * [416. Partition Equal Subset Sum](dynamic-programming/416.-partition-equal-subset-sum.md)
   * [1143. Longest Common Subsequence](dynamic-programming/1143.-longest-common-subsequence.md)
   * [300. Longest Increasing Subsequence](dynamic-programming/300.-longest-increasing-subsequence.md)
   * [509. Fibonacci Number](dynamic-programming/509.-fibonacci-number.md)
