@@ -118,6 +118,7 @@
   * [416. Partition Equal Subset Sum](dynamic-programming/416.-partition-equal-subset-sum.md)
   * [1143. Longest Common Subsequence](dynamic-programming/1143.-longest-common-subsequence.md)
   * [300. Longest Increasing Subsequence](dynamic-programming/300.-longest-increasing-subsequence.md)
+  * [516. Longest Palindromic Subsequence](dynamic-programming/516.-longest-palindromic-subsequence.md)
   * [509. Fibonacci Number](dynamic-programming/509.-fibonacci-number.md)
   * [198. House Robber](dynamic-programming/198.-house-robber.md)
   * [337. House Robber III](dynamic-programming/337.-house-robber-iii.md)

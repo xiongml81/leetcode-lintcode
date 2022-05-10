@@ -14,7 +14,7 @@ val = [4, 2, 3]
 
 算法返回 6，选择前两件物品装进背包，总重量 3 小于 `W`，可以获得最大价值 6。
 
-
+{% embed url="https://labuladong.github.io/algo/3/25/82" %}
 
 DFS:
 
