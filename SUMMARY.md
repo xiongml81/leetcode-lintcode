@@ -26,6 +26,7 @@
   * [863. All Nodes Distance K in Binary Tree](binary-tree-and-divide-and-conquer/863.-all-nodes-distance-k-in-binary-tree.md)
   * [1644. Lowest Common Ancestor of a Binary Tree II](binary-tree-and-divide-and-conquer/1644.-lowest-common-ancestor-of-a-binary-tree-ii.md)
   * [1650. Lowest Common Ancestor of a Binary Tree III](binary-tree-and-divide-and-conquer/1650.-lowest-common-ancestor-of-a-binary-tree-iii.md)
+  * [1676. Lowest Common Ancestor of a Binary Tree IV](binary-tree-and-divide-and-conquer/1676.-lowest-common-ancestor-of-a-binary-tree-iv.md)
   * [236. Lowest Common Ancestor of a Binary Tree](binary-tree-and-divide-and-conquer/236.-lowest-common-ancestor-of-a-binary-tree.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](binary-tree-and-divide-and-conquer/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
   * [112. Path Sum](binary-tree-and-divide-and-conquer/112.-path-sum.md)
