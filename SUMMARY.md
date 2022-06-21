@@ -213,3 +213,5 @@
   * [828. Count Unique Characters of All Substrings of a Given String](shu-ju-jie-gou/amazon/828.-count-unique-characters-of-all-substrings-of-a-given-string.md)
   * [146. LRU Cache](shu-ju-jie-gou/amazon/146.-lru-cache.md)
   * [937. Reorder Data in Log Files](shu-ju-jie-gou/amazon/937.-reorder-data-in-log-files.md)
+* [Meta](shu-ju-jie-gou/meta/README.md)
+  * [Merge 3 sorted array](shu-ju-jie-gou/meta/merge-3-sorted-array.md)
