@@ -29,6 +29,7 @@
   * [1676. Lowest Common Ancestor of a Binary Tree IV](binary-tree-and-divide-and-conquer/1676.-lowest-common-ancestor-of-a-binary-tree-iv.md)
   * [236. Lowest Common Ancestor of a Binary Tree](binary-tree-and-divide-and-conquer/236.-lowest-common-ancestor-of-a-binary-tree.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](binary-tree-and-divide-and-conquer/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
+  * [297. Serialize and Deserialize Binary Tree](binary-tree-and-divide-and-conquer/297.-serialize-and-deserialize-binary-tree.md)
   * [112. Path Sum](binary-tree-and-divide-and-conquer/112.-path-sum.md)
   * [124. Binary Tree Maximum Path Sum](binary-tree-and-divide-and-conquer/124.-binary-tree-maximum-path-sum.md)
   * [437. Path Sum III](binary-tree-and-divide-and-conquer/437.-path-sum-iii.md)
