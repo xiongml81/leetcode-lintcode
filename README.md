@@ -9,3 +9,5 @@
 {% embed url="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&page=1&tid=771386#pid15638568" %}
 
 {% embed url="https://github.com/JojoYang666/Leetcode-1-300" %}
+
+{% embed url="https://leetcode.com/list/9zwo3ww5/" %}
