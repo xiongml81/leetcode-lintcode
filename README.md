@@ -11,3 +11,5 @@
 {% embed url="https://github.com/JojoYang666/Leetcode-1-300" %}
 
 {% embed url="https://leetcode.com/list/9zwo3ww5/" %}
+
+{% embed url="https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%8001%E8%83%8C%E5%8C%85-1.md" %}

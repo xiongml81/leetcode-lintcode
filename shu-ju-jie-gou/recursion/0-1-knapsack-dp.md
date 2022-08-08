@@ -14,7 +14,7 @@ val = [4, 2, 3]
 
 算法返回 6，选择前两件物品装进背包，总重量 3 小于 `W`，可以获得最大价值 6。
 
-
+{% embed url="https://labuladong.github.io/algo/3/25/82" %}
 
 DFS:
 
@@ -35,4 +35,27 @@ public static void knapsack(int index, int sumw, int sumv, int s, int[] weights,
 
 
 	}
+```
+
+```java
+int knapsack(int W, int N, int[] wt, int[] val) {
+    // base case 已初始化
+    int[][] dp = new int[N + 1][W + 1];
+    for (int i = 1; i <= N; i++) {
+        for (int w = 1; w <= W; w++) {
+            if (w - wt[i - 1] < 0) {
+                // 这种情况下只能选择不装入背包
+                dp[i][w] = dp[i - 1][w];
+            } else {
+                // 装入或者不装入背包，择优
+                dp[i][w] = Math.max(
+                    dp[i - 1][w - wt[i-1]] + val[i-1], 
+                    dp[i - 1][w]
+                );
+            }
+        }
+    }
+    
+    return dp[N][W];
+}
 ```
