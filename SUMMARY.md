@@ -182,7 +182,7 @@
   * [0-1 Knapsack 背包问题 III](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-iii.md)
   * [0-1 Knapsack 背包问题 IV](shu-ju-jie-gou/recursion/01-knapsack-bei-bao-wen-ti-iv.md)
   * [0-1 Knapsack (DP)](shu-ju-jie-gou/recursion/0-1-knapsack-dp.md)
-  * [Complete Knapsack](shu-ju-jie-gou/recursion/complete-knapsack.md)
+  * [Complete Knapsack 背包问题](shu-ju-jie-gou/recursion/complete-knapsack-bei-bao-wen-ti.md)
   * [104. Maximum Depth of Binary Tree](shu-ju-jie-gou/recursion/104.-maximum-depth-of-binary-tree.md)
   * [110. Balanced Binary Tree](shu-ju-jie-gou/recursion/110.-balanced-binary-tree.md)
   * [100. Same Tree](shu-ju-jie-gou/recursion/100.-same-tree.md)

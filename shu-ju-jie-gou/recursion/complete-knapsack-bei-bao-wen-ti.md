@@ -1,4 +1,4 @@
-# Complete Knapsack
+# Complete Knapsack 背包问题
 
 // Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
 
@@ -66,3 +66,21 @@ dp\[i+1]\[j]
 \=max(dp\[i]\[j],dp\[i+1]\[j-w\[i]]+v\[i])
 
 这样一来就可以用O(nW)时间解决问题。
+
+
+
+**一维DP:**
+
+```java
+  private static int process2(int[] weights, int[] values, int capacity){
+    int[] dp = new int[capacity + 1];
+
+    for(int i = 0; i < weights.length; i++){
+      for(int j = weights[i]; j <= capacity; j++){
+        dp[j] = Math.max(dp[j], dp[j - weights[i]] + values[i]);
+      }
+    }
+
+    return dp[capacity];
+  }
+```
