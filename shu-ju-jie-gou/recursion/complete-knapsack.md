@@ -41,5 +41,28 @@ private static int process(int[] weights, int[] values, int capacity){
   }
 ```
 
+\
+\
+递推关系：&#x20;
 
+dp\[0]\[j]=0
 
+dp\[i+1]\[j]=max{dp\[i]\[j-k_w\[i]]+k_v\[i]|0<=k}
+
+但直接这样去写程序是三重循环，时间复杂度为O(mW^2).
+
+在这个算法中有多余的计算：
+
+在dp\[i+1]\[j]的计算中选择k(k>=1)个 i 物品的情况，与在dp\[i+1]\[j-w\[i]]的计算中选择k-1的情况是相同的，所以dp\[i+1]\[j]的递推中k>=1部分的计算已经在dp\[i+1]\[j-w\[i]]的计算中完成了。那么可以按照如下方式进行变形：
+
+dp\[i+1]\[j]
+
+\=max{dp\[i]\[j-k_w\[i]]+k_v\[i]|0<=k}
+
+\=max(dp\[i]\[j],max{dp\[i]\[j-k_w\[i]]+k_v\[i]|1<=k})
+
+\=max(dp\[i]\[j],max{dp\[i]\[(j-w\[i])-k_w\[i]]+k_v\[i]|0<=k}+v\[i])
+
+\=max(dp\[i]\[j],dp\[i+1]\[j-w\[i]]+v\[i])
+
+这样一来就可以用O(nW)时间解决问题。
